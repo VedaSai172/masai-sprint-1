@@ -1,0 +1,99 @@
+
+ body{
+                background-color: brown;
+                text-align: left;
+        }
+h1{
+    text-align: center;
+}
+#ph1{
+    color: lightcyan;
+}
+h2{
+    color: lightskyblue;
+}
+a {
+                color: navy;
+                border: 1px red solid;
+                text-align: center;
+            }
+dl{
+                text-align: left;
+                color: hotpink;
+            }
+strong{
+    color: lawngreen;
+}
+.cls1{
+                float: left;
+                width: 80%;
+        }
+h4{
+    float: left;
+}
+ul{
+                clear: both;
+                float: left;
+            }
+#id1{
+                clear: both;
+            }
+div > img {
+                width: 18%;
+                float: right;
+        }
+
+}
+li:hover{
+        color: navajowhite;    
+        font-size: 25px;            
+        }
+.mar{
+    margin: 5px;
+
+}
+#g{
+    display: grid;
+    grid-gap:0px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+    text-align: center;
+    
+}
+#g > div{
+    border: 1px solid rgb(163, 163, 163);
+}
+.p2b{
+    background-color:skyblue;
+}
+h1{
+    text-align: center;
+}
+.pad{
+    padding-top: 15px;
+}
+.p2o{
+    text-align: left;
+    
+}
+.p2o dd {
+    color: orangered;
+}
+#box{
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+}
+#box>div{
+    border: 1px black solid;
+    width: 60%;
+}
+#p4b{
+    background-color:rgb(234, 247, 235);
+}
+#str{
+    color: tomato;
+}
+.p4dl > dd{
+    color: navy;
+}
